@@ -1,0 +1,2 @@
+1. Create another annotations file for the test dataset (even for validation).
+2. Start building the resnet model. (From scratch or use torchvision, probably use torchvision now)
