@@ -3,5 +3,7 @@ pandas
 matplotlib
 opencv-python
 scikit-image
+tqdm
+grad-cam
 --f https://download.pytorch.org/whl/torch_stable.html
 torchaudio==2.2.2+cu118
