@@ -1,0 +1,389 @@
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data
+
+[i] log_iteration : 11
+[i] val_iteration : 58
+[i] max_iteration : 580
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data
+
+[i] log_iteration : 11
+[i] val_iteration : 58
+[i] max_iteration : 580
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data
+
+[i] log_iteration : 46
+[i] val_iteration : 231
+[i] max_iteration : 2,310
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data
+
+[i] log_iteration : 46
+[i] val_iteration : 231
+[i] max_iteration : 2,310
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i]	Epoch[0/10],	iteration=50, 	learning_rate=0.0010, 	loss=1.0276, 	positive_loss=0.0415, 	negative_loss=0.8450, 	time=48sec
+[i]	Epoch[0/10],	iteration=100, 	learning_rate=0.0010, 	loss=0.9226, 	positive_loss=0.0419, 	negative_loss=0.7956, 	time=17sec
+[i]	Epoch[0/10],	iteration=150, 	learning_rate=0.0009, 	loss=0.8650, 	positive_loss=0.0398, 	negative_loss=0.7543, 	time=20sec
+[i]	Epoch[0/10],	iteration=200, 	learning_rate=0.0009, 	loss=0.8245, 	positive_loss=0.0385, 	negative_loss=0.7004, 	time=37sec
+[i] save model
+[i]	Epoch[1/10],	iteration=50, 	learning_rate=0.0009, 	loss=0.7813, 	positive_loss=0.0431, 	negative_loss=0.6540, 	time=121sec
+[i]	Epoch[1/10],	iteration=100, 	learning_rate=0.0009, 	loss=0.7502, 	positive_loss=0.0413, 	negative_loss=0.6488, 	time=69sec
+[i]	Epoch[1/10],	iteration=150, 	learning_rate=0.0009, 	loss=0.7280, 	positive_loss=0.0382, 	negative_loss=0.6231, 	time=70sec
+[i]	Epoch[1/10],	iteration=200, 	learning_rate=0.0008, 	loss=0.7099, 	positive_loss=0.0397, 	negative_loss=0.6038, 	time=71sec
+[i] save model
+[i]	Epoch[2/10],	iteration=50, 	learning_rate=0.0008, 	loss=0.6865, 	positive_loss=0.0399, 	negative_loss=0.5857, 	time=150sec
+[i]	Epoch[2/10],	iteration=100, 	learning_rate=0.0008, 	loss=0.6609, 	positive_loss=0.0388, 	negative_loss=0.5775, 	time=73sec
+[i]	Epoch[2/10],	iteration=150, 	learning_rate=0.0008, 	loss=0.6509, 	positive_loss=0.0394, 	negative_loss=0.5849, 	time=85sec
+[i]	Epoch[2/10],	iteration=200, 	learning_rate=0.0007, 	loss=0.6391, 	positive_loss=0.0373, 	negative_loss=0.5454, 	time=76sec
+[i] save model
+[i]	Epoch[3/10],	iteration=50, 	learning_rate=0.0007, 	loss=0.6221, 	positive_loss=0.0386, 	negative_loss=0.5381, 	time=139sec
+[i]	Epoch[3/10],	iteration=100, 	learning_rate=0.0007, 	loss=0.6060, 	positive_loss=0.0348, 	negative_loss=0.5241, 	time=70sec
+[i]	Epoch[3/10],	iteration=150, 	learning_rate=0.0007, 	loss=0.5992, 	positive_loss=0.0382, 	negative_loss=0.4970, 	time=70sec
+[i]	Epoch[3/10],	iteration=200, 	learning_rate=0.0006, 	loss=0.5870, 	positive_loss=0.0362, 	negative_loss=0.5191, 	time=70sec
+[i] save model
+[i]	Epoch[4/10],	iteration=50, 	learning_rate=0.0006, 	loss=0.5787, 	positive_loss=0.0356, 	negative_loss=0.5008, 	time=98sec
+[i]	Epoch[4/10],	iteration=100, 	learning_rate=0.0006, 	loss=0.5655, 	positive_loss=0.0343, 	negative_loss=0.4853, 	time=56sec
+[i]	Epoch[4/10],	iteration=150, 	learning_rate=0.0006, 	loss=0.5618, 	positive_loss=0.0356, 	negative_loss=0.5069, 	time=65sec
+[i]	Epoch[4/10],	iteration=200, 	learning_rate=0.0005, 	loss=0.5531, 	positive_loss=0.0374, 	negative_loss=0.4699, 	time=67sec
+[i] save model
+[i]	Epoch[5/10],	iteration=50, 	learning_rate=0.0005, 	loss=0.5466, 	positive_loss=0.0344, 	negative_loss=0.4866, 	time=89sec
+[i]	Epoch[5/10],	iteration=100, 	learning_rate=0.0005, 	loss=0.5384, 	positive_loss=0.0340, 	negative_loss=0.4602, 	time=43sec
+[i]	Epoch[5/10],	iteration=150, 	learning_rate=0.0005, 	loss=0.5329, 	positive_loss=0.0317, 	negative_loss=0.4958, 	time=55sec
+[i]	Epoch[5/10],	iteration=200, 	learning_rate=0.0005, 	loss=0.5260, 	positive_loss=0.0320, 	negative_loss=0.4444, 	time=56sec
+[i] save model
+[i]	Epoch[6/10],	iteration=50, 	learning_rate=0.0004, 	loss=0.5216, 	positive_loss=0.0348, 	negative_loss=0.4445, 	time=81sec
+[i]	Epoch[6/10],	iteration=100, 	learning_rate=0.0004, 	loss=0.5156, 	positive_loss=0.0333, 	negative_loss=0.4410, 	time=43sec
+[i]	Epoch[6/10],	iteration=150, 	learning_rate=0.0004, 	loss=0.5103, 	positive_loss=0.0346, 	negative_loss=0.4445, 	time=58sec
+[i]	Epoch[6/10],	iteration=200, 	learning_rate=0.0004, 	loss=0.5065, 	positive_loss=0.0352, 	negative_loss=0.4318, 	time=62sec
+[i] save model
+[i]	Epoch[7/10],	iteration=50, 	learning_rate=0.0003, 	loss=0.5019, 	positive_loss=0.0296, 	negative_loss=0.4290, 	time=88sec
+[i]	Epoch[7/10],	iteration=100, 	learning_rate=0.0003, 	loss=0.4971, 	positive_loss=0.0345, 	negative_loss=0.4333, 	time=51sec
+[i]	Epoch[7/10],	iteration=150, 	learning_rate=0.0003, 	loss=0.4972, 	positive_loss=0.0328, 	negative_loss=0.4278, 	time=64sec
+[i]	Epoch[7/10],	iteration=200, 	learning_rate=0.0002, 	loss=0.4954, 	positive_loss=0.0331, 	negative_loss=0.4387, 	time=69sec
+[i] save model
+[i]	Epoch[8/10],	iteration=50, 	learning_rate=0.0002, 	loss=0.4918, 	positive_loss=0.0331, 	negative_loss=0.4457, 	time=87sec
+[i]	Epoch[8/10],	iteration=100, 	learning_rate=0.0002, 	loss=0.4862, 	positive_loss=0.0352, 	negative_loss=0.4233, 	time=53sec
+[i]	Epoch[8/10],	iteration=150, 	learning_rate=0.0002, 	loss=0.4869, 	positive_loss=0.0332, 	negative_loss=0.4219, 	time=67sec
+[i]	Epoch[8/10],	iteration=200, 	learning_rate=0.0001, 	loss=0.4854, 	positive_loss=0.0341, 	negative_loss=0.4173, 	time=68sec
+[i] save model
+[i]	Epoch[9/10],	iteration=50, 	learning_rate=0.0001, 	loss=0.4830, 	positive_loss=0.0325, 	negative_loss=0.4180, 	time=94sec
+[i]	Epoch[9/10],	iteration=100, 	learning_rate=0.0001, 	loss=0.4842, 	positive_loss=0.0317, 	negative_loss=0.4251, 	time=52sec
+[i]	Epoch[9/10],	iteration=150, 	learning_rate=0.0000, 	loss=0.4820, 	positive_loss=0.0314, 	negative_loss=0.4115, 	time=64sec
+[i]	Epoch[9/10],	iteration=200, 	learning_rate=0.0000, 	loss=0.4796, 	positive_loss=0.0274, 	negative_loss=0.4240, 	time=60sec
+[i] save model
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data
+
+[i] log_iteration : 46
+[i] val_iteration : 231
+[i] max_iteration : 2,310
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data
+
+[i] log_iteration : 46
+[i] val_iteration : 231
+[i] max_iteration : 2,310
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i]	Epoch[0/10],	iteration=50, 	learning_rate=0.0010, 	loss=1.3273, 	positive_loss=0.0399, 	negative_loss=1.1962, 	time=79sec
+[i]	Epoch[0/10],	iteration=100, 	learning_rate=0.0010, 	loss=1.2906, 	positive_loss=0.0408, 	negative_loss=1.1888, 	time=23sec
+[i]	Epoch[0/10],	iteration=150, 	learning_rate=0.0009, 	loss=1.2591, 	positive_loss=0.0403, 	negative_loss=1.1772, 	time=21sec
+[i]	Epoch[0/10],	iteration=200, 	learning_rate=0.0009, 	loss=1.2380, 	positive_loss=0.0406, 	negative_loss=1.1484, 	time=20sec
+[i] save model
+[i]	Epoch[1/10],	iteration=50, 	learning_rate=0.0009, 	loss=1.2087, 	positive_loss=0.0430, 	negative_loss=1.1012, 	time=53sec
+[i]	Epoch[1/10],	iteration=100, 	learning_rate=0.0009, 	loss=1.1841, 	positive_loss=0.0422, 	negative_loss=1.0670, 	time=19sec
+[i]	Epoch[1/10],	iteration=150, 	learning_rate=0.0009, 	loss=1.1612, 	positive_loss=0.0415, 	negative_loss=1.0746, 	time=22sec
+[i]	Epoch[1/10],	iteration=200, 	learning_rate=0.0008, 	loss=1.1427, 	positive_loss=0.0454, 	negative_loss=1.0501, 	time=22sec
+[i] save model
+[i]	Epoch[2/10],	iteration=50, 	learning_rate=0.0008, 	loss=1.1175, 	positive_loss=0.0479, 	negative_loss=1.0188, 	time=62sec
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data
+
+[i] log_iteration : 46
+[i] val_iteration : 231
+[i] max_iteration : 2,310
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i]	Epoch[0/10],	iteration=50, 	learning_rate=0.0010, 	loss=1.3273, 	positive_loss=0.0399, 	negative_loss=1.1962, 	time=70sec
+[i]	Epoch[0/10],	iteration=100, 	learning_rate=0.0010, 	loss=1.2906, 	positive_loss=0.0408, 	negative_loss=1.1887, 	time=18sec
+[i]	Epoch[0/10],	iteration=150, 	learning_rate=0.0009, 	loss=1.2591, 	positive_loss=0.0403, 	negative_loss=1.1772, 	time=19sec
+[i]	Epoch[0/10],	iteration=200, 	learning_rate=0.0009, 	loss=1.2380, 	positive_loss=0.0406, 	negative_loss=1.1484, 	time=20sec
+[i] save model
+[i]	Epoch[1/10],	iteration=50, 	learning_rate=0.0009, 	loss=1.2087, 	positive_loss=0.0430, 	negative_loss=1.1012, 	time=100sec
+[i]	Epoch[1/10],	iteration=100, 	learning_rate=0.0009, 	loss=1.1841, 	positive_loss=0.0422, 	negative_loss=1.0670, 	time=26sec
+[i]	Epoch[1/10],	iteration=150, 	learning_rate=0.0009, 	loss=1.1612, 	positive_loss=0.0415, 	negative_loss=1.0746, 	time=24sec
+[i]	Epoch[1/10],	iteration=200, 	learning_rate=0.0008, 	loss=1.1427, 	positive_loss=0.0454, 	negative_loss=1.0500, 	time=26sec
+[i] save model
+[i]	Epoch[2/10],	iteration=50, 	learning_rate=0.0008, 	loss=1.1175, 	positive_loss=0.0479, 	negative_loss=1.0188, 	time=89sec
+[i]	Epoch[2/10],	iteration=100, 	learning_rate=0.0008, 	loss=1.0942, 	positive_loss=0.0446, 	negative_loss=1.0331, 	time=26sec
+[i]	Epoch[2/10],	iteration=150, 	learning_rate=0.0008, 	loss=1.0807, 	positive_loss=0.0462, 	negative_loss=1.0502, 	time=42sec
+[i]	Epoch[2/10],	iteration=200, 	learning_rate=0.0007, 	loss=1.0689, 	positive_loss=0.0496, 	negative_loss=0.9645, 	time=53sec
+[i] save model
+[i]	Epoch[3/10],	iteration=50, 	learning_rate=0.0007, 	loss=1.0507, 	positive_loss=0.0481, 	negative_loss=0.9757, 	time=103sec
+[i]	Epoch[3/10],	iteration=100, 	learning_rate=0.0007, 	loss=1.0340, 	positive_loss=0.0477, 	negative_loss=0.9570, 	time=31sec
+[i]	Epoch[3/10],	iteration=150, 	learning_rate=0.0007, 	loss=1.0235, 	positive_loss=0.0523, 	negative_loss=0.9208, 	time=57sec
+[i]	Epoch[3/10],	iteration=200, 	learning_rate=0.0006, 	loss=1.0099, 	positive_loss=0.0493, 	negative_loss=0.9447, 	time=66sec
+[i] save model
+[i]	Epoch[4/10],	iteration=50, 	learning_rate=0.0006, 	loss=1.0020, 	positive_loss=0.0514, 	negative_loss=0.9244, 	time=103sec
+[i]	Epoch[4/10],	iteration=100, 	learning_rate=0.0006, 	loss=0.9899, 	positive_loss=0.0508, 	negative_loss=0.8849, 	time=40sec
+[i]	Epoch[4/10],	iteration=150, 	learning_rate=0.0006, 	loss=0.9842, 	positive_loss=0.0497, 	negative_loss=0.9406, 	time=57sec
+[i]	Epoch[4/10],	iteration=200, 	learning_rate=0.0005, 	loss=0.9712, 	positive_loss=0.0523, 	negative_loss=0.8718, 	time=56sec
+[i] save model
+[i]	Epoch[5/10],	iteration=50, 	learning_rate=0.0005, 	loss=0.9673, 	positive_loss=0.0508, 	negative_loss=0.9119, 	time=103sec
+[i]	Epoch[5/10],	iteration=100, 	learning_rate=0.0005, 	loss=0.9552, 	positive_loss=0.0511, 	negative_loss=0.8751, 	time=28sec
+[i]	Epoch[5/10],	iteration=150, 	learning_rate=0.0005, 	loss=0.9508, 	positive_loss=0.0534, 	negative_loss=0.9159, 	time=49sec
+[i]	Epoch[5/10],	iteration=200, 	learning_rate=0.0005, 	loss=0.9412, 	positive_loss=0.0548, 	negative_loss=0.8178, 	time=56sec
+[i] save model
+[i]	Epoch[6/10],	iteration=50, 	learning_rate=0.0004, 	loss=0.9387, 	positive_loss=0.0533, 	negative_loss=0.8328, 	time=84sec
+[i]	Epoch[6/10],	iteration=100, 	learning_rate=0.0004, 	loss=0.9316, 	positive_loss=0.0499, 	negative_loss=0.8519, 	time=40sec
+[i]	Epoch[6/10],	iteration=150, 	learning_rate=0.0004, 	loss=0.9230, 	positive_loss=0.0553, 	negative_loss=0.8354, 	time=53sec
+[i]	Epoch[6/10],	iteration=200, 	learning_rate=0.0004, 	loss=0.9204, 	positive_loss=0.0541, 	negative_loss=0.8230, 	time=59sec
+[i] save model
+[i]	Epoch[7/10],	iteration=50, 	learning_rate=0.0003, 	loss=0.9174, 	positive_loss=0.0530, 	negative_loss=0.8151, 	time=85sec
+[i]	Epoch[7/10],	iteration=100, 	learning_rate=0.0003, 	loss=0.9102, 	positive_loss=0.0536, 	negative_loss=0.8236, 	time=38sec
+[i]	Epoch[7/10],	iteration=150, 	learning_rate=0.0003, 	loss=0.9078, 	positive_loss=0.0551, 	negative_loss=0.8121, 	time=55sec
+[i]	Epoch[7/10],	iteration=200, 	learning_rate=0.0002, 	loss=0.9110, 	positive_loss=0.0536, 	negative_loss=0.8162, 	time=57sec
+[i] save model
+[i]	Epoch[8/10],	iteration=50, 	learning_rate=0.0002, 	loss=0.9040, 	positive_loss=0.0497, 	negative_loss=0.8556, 	time=83sec
+[i]	Epoch[8/10],	iteration=100, 	learning_rate=0.0002, 	loss=0.8984, 	positive_loss=0.0521, 	negative_loss=0.8164, 	time=45sec
+[i]	Epoch[8/10],	iteration=150, 	learning_rate=0.0002, 	loss=0.8980, 	positive_loss=0.0552, 	negative_loss=0.7905, 	time=51sec
+[i]	Epoch[8/10],	iteration=200, 	learning_rate=0.0001, 	loss=0.8980, 	positive_loss=0.0541, 	negative_loss=0.7965, 	time=63sec
+[i] save model
+[i]	Epoch[9/10],	iteration=50, 	learning_rate=0.0001, 	loss=0.8927, 	positive_loss=0.0543, 	negative_loss=0.7869, 	time=87sec
+[i]	Epoch[9/10],	iteration=100, 	learning_rate=0.0001, 	loss=0.8948, 	positive_loss=0.0559, 	negative_loss=0.8071, 	time=43sec
+[i]	Epoch[9/10],	iteration=150, 	learning_rate=0.0000, 	loss=0.8926, 	positive_loss=0.0542, 	negative_loss=0.8066, 	time=60sec
+[i]	Epoch[9/10],	iteration=200, 	learning_rate=0.0000, 	loss=0.8896, 	positive_loss=0.0528, 	negative_loss=0.8034, 	time=59sec
+[i] save model
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data is 7390
+
+[i] log_iteration : 46
+[i] val_iteration : 231
+[i] max_iteration : 231
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i]	Epoch[0/1],	iteration=50, 	learning_rate=0.0008, 	loss=1.3285, 	positive_loss=0.0398, 	negative_loss=1.1991, 	time=124sec
+[i]	Epoch[0/1],	iteration=100, 	learning_rate=0.0006, 	loss=1.2966, 	positive_loss=0.0404, 	negative_loss=1.1993, 	time=28sec
+[i]	Epoch[0/1],	iteration=150, 	learning_rate=0.0004, 	loss=1.2736, 	positive_loss=0.0396, 	negative_loss=1.1980, 	time=22sec
+[i]	Epoch[0/1],	iteration=200, 	learning_rate=0.0002, 	loss=1.2652, 	positive_loss=0.0390, 	negative_loss=1.1875, 	time=20sec
+[i] save model
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data is 7390
+
+[i] log_iteration : 46
+[i] val_iteration : 231
+[i] max_iteration : 231
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i]	Epoch[0/1],	iteration=50, 	learning_rate=0.0008, 	loss=1.3285, 	positive_loss=0.0398, 	negative_loss=1.1991, 	time=45sec
+[i]	Epoch[0/1],	iteration=100, 	learning_rate=0.0006, 	loss=1.2966, 	positive_loss=0.0404, 	negative_loss=1.1993, 	time=18sec
+[i]	Epoch[0/1],	iteration=150, 	learning_rate=0.0004, 	loss=1.2736, 	positive_loss=0.0396, 	negative_loss=1.1980, 	time=27sec
+[i]	Epoch[0/1],	iteration=200, 	learning_rate=0.0002, 	loss=1.2652, 	positive_loss=0.0390, 	negative_loss=1.1875, 	time=67sec
+[i] save model
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data is 7390
+
+[i] log_iteration : 46
+[i] val_iteration : 231
+[i] max_iteration : 231
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data is 7390
+
+[i] log_iteration : 46
+[i] val_iteration : 231
+[i] max_iteration : 231
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i]	Epoch[0/1],	iteration=50, 	learning_rate=0.0008, 	loss=1.3285, 	positive_loss=0.0398, 	negative_loss=1.1991, 	time=52sec
+[i]	Epoch[0/1],	iteration=100, 	learning_rate=0.0006, 	loss=1.2966, 	positive_loss=0.0404, 	negative_loss=1.1993, 	time=70sec
+[i]	Epoch[0/1],	iteration=150, 	learning_rate=0.0004, 	loss=1.2736, 	positive_loss=0.0396, 	negative_loss=1.1980, 	time=104sec
+[i]	Epoch[0/1],	iteration=200, 	learning_rate=0.0002, 	loss=1.2652, 	positive_loss=0.0390, 	negative_loss=1.1875, 	time=126sec
+[i] save model
+[i] CCAM_OXFORD
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data is 7390
+
+[i] log_iteration : 46
+[i] val_iteration : 231
+[i] max_iteration : 2,310
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i]	Epoch[0/10],	iteration=50, 	learning_rate=0.0010, 	loss=1.3273, 	positive_loss=0.0399, 	negative_loss=1.1962, 	time=66sec
+[i]	Epoch[0/10],	iteration=100, 	learning_rate=0.0010, 	loss=1.2906, 	positive_loss=0.0408, 	negative_loss=1.1888, 	time=20sec
+[i]	Epoch[0/10],	iteration=150, 	learning_rate=0.0009, 	loss=1.2591, 	positive_loss=0.0403, 	negative_loss=1.1772, 	time=24sec
+[i]	Epoch[0/10],	iteration=200, 	learning_rate=0.0009, 	loss=1.2380, 	positive_loss=0.0406, 	negative_loss=1.1484, 	time=24sec
+[i] save model
+[i]	Epoch[1/10],	iteration=50, 	learning_rate=0.0009, 	loss=1.2087, 	positive_loss=0.0430, 	negative_loss=1.1012, 	time=76sec
+[i]	Epoch[1/10],	iteration=100, 	learning_rate=0.0009, 	loss=1.1841, 	positive_loss=0.0422, 	negative_loss=1.0670, 	time=20sec
+[i]	Epoch[1/10],	iteration=150, 	learning_rate=0.0009, 	loss=1.1612, 	positive_loss=0.0415, 	negative_loss=1.0746, 	time=24sec
+[i]	Epoch[1/10],	iteration=200, 	learning_rate=0.0008, 	loss=1.1427, 	positive_loss=0.0454, 	negative_loss=1.0500, 	time=34sec
+[i] save model
+[i]	Epoch[2/10],	iteration=50, 	learning_rate=0.0008, 	loss=1.1175, 	positive_loss=0.0479, 	negative_loss=1.0188, 	time=97sec
+[i]	Epoch[2/10],	iteration=100, 	learning_rate=0.0008, 	loss=1.0942, 	positive_loss=0.0446, 	negative_loss=1.0330, 	time=38sec
+[i]	Epoch[2/10],	iteration=150, 	learning_rate=0.0008, 	loss=1.0807, 	positive_loss=0.0462, 	negative_loss=1.0502, 	time=71sec
+[i]	Epoch[2/10],	iteration=200, 	learning_rate=0.0007, 	loss=1.0689, 	positive_loss=0.0496, 	negative_loss=0.9645, 	time=78sec
+[i] save model
+[i]	Epoch[3/10],	iteration=50, 	learning_rate=0.0007, 	loss=1.0507, 	positive_loss=0.0481, 	negative_loss=0.9757, 	time=139sec
+[i]	Epoch[3/10],	iteration=100, 	learning_rate=0.0007, 	loss=1.0340, 	positive_loss=0.0477, 	negative_loss=0.9570, 	time=78sec
+[i]	Epoch[3/10],	iteration=150, 	learning_rate=0.0007, 	loss=1.0235, 	positive_loss=0.0523, 	negative_loss=0.9208, 	time=79sec
+[i]	Epoch[3/10],	iteration=200, 	learning_rate=0.0006, 	loss=1.0099, 	positive_loss=0.0493, 	negative_loss=0.9447, 	time=80sec
+[i] save model
+[i]	Epoch[4/10],	iteration=50, 	learning_rate=0.0006, 	loss=1.0020, 	positive_loss=0.0514, 	negative_loss=0.9244, 	time=171sec
+[i]	Epoch[4/10],	iteration=100, 	learning_rate=0.0006, 	loss=0.9899, 	positive_loss=0.0508, 	negative_loss=0.8849, 	time=81sec
+[i]	Epoch[4/10],	iteration=150, 	learning_rate=0.0006, 	loss=0.9842, 	positive_loss=0.0497, 	negative_loss=0.9406, 	time=74sec
+[i]	Epoch[4/10],	iteration=200, 	learning_rate=0.0005, 	loss=0.9712, 	positive_loss=0.0523, 	negative_loss=0.8718, 	time=74sec
+[i] save model
+[i]	Epoch[5/10],	iteration=50, 	learning_rate=0.0005, 	loss=0.9673, 	positive_loss=0.0508, 	negative_loss=0.9119, 	time=161sec
+[i]	Epoch[5/10],	iteration=100, 	learning_rate=0.0005, 	loss=0.9552, 	positive_loss=0.0511, 	negative_loss=0.8751, 	time=78sec
+[i]	Epoch[5/10],	iteration=150, 	learning_rate=0.0005, 	loss=0.9508, 	positive_loss=0.0534, 	negative_loss=0.9159, 	time=79sec
+[i]	Epoch[5/10],	iteration=200, 	learning_rate=0.0005, 	loss=0.9412, 	positive_loss=0.0548, 	negative_loss=0.8179, 	time=80sec
+[i] save model
+[i]	Epoch[6/10],	iteration=50, 	learning_rate=0.0004, 	loss=0.9387, 	positive_loss=0.0533, 	negative_loss=0.8328, 	time=171sec
+[i]	Epoch[6/10],	iteration=100, 	learning_rate=0.0004, 	loss=0.9316, 	positive_loss=0.0499, 	negative_loss=0.8520, 	time=78sec
+[i]	Epoch[6/10],	iteration=150, 	learning_rate=0.0004, 	loss=0.9230, 	positive_loss=0.0553, 	negative_loss=0.8354, 	time=88sec
+[i]	Epoch[6/10],	iteration=200, 	learning_rate=0.0004, 	loss=0.9204, 	positive_loss=0.0541, 	negative_loss=0.8230, 	time=84sec
+[i] save model
+[i]	Epoch[7/10],	iteration=50, 	learning_rate=0.0003, 	loss=0.9174, 	positive_loss=0.0530, 	negative_loss=0.8151, 	time=176sec
+[i]	Epoch[7/10],	iteration=100, 	learning_rate=0.0003, 	loss=0.9102, 	positive_loss=0.0536, 	negative_loss=0.8236, 	time=93sec
+[i]	Epoch[7/10],	iteration=150, 	learning_rate=0.0003, 	loss=0.9078, 	positive_loss=0.0551, 	negative_loss=0.8121, 	time=105sec
+[i]	Epoch[7/10],	iteration=200, 	learning_rate=0.0002, 	loss=0.9110, 	positive_loss=0.0536, 	negative_loss=0.8162, 	time=98sec
+[i] save model
+[i]	Epoch[8/10],	iteration=50, 	learning_rate=0.0002, 	loss=0.9040, 	positive_loss=0.0497, 	negative_loss=0.8556, 	time=169sec
+[i]	Epoch[8/10],	iteration=100, 	learning_rate=0.0002, 	loss=0.8984, 	positive_loss=0.0521, 	negative_loss=0.8164, 	time=87sec
+[i]	Epoch[8/10],	iteration=150, 	learning_rate=0.0002, 	loss=0.8980, 	positive_loss=0.0552, 	negative_loss=0.7905, 	time=87sec
+[i]	Epoch[8/10],	iteration=200, 	learning_rate=0.0001, 	loss=0.8980, 	positive_loss=0.0541, 	negative_loss=0.7965, 	time=93sec
+[i] save model
+[i]	Epoch[9/10],	iteration=50, 	learning_rate=0.0001, 	loss=0.8927, 	positive_loss=0.0543, 	negative_loss=0.7869, 	time=158sec
+[i]	Epoch[9/10],	iteration=100, 	learning_rate=0.0001, 	loss=0.8948, 	positive_loss=0.0559, 	negative_loss=0.8071, 	time=84sec
+[i]	Epoch[9/10],	iteration=150, 	learning_rate=0.0000, 	loss=0.8926, 	positive_loss=0.0542, 	negative_loss=0.8066, 	time=93sec
+[i]	Epoch[9/10],	iteration=200, 	learning_rate=0.0000, 	loss=0.8896, 	positive_loss=0.0528, 	negative_loss=0.8034, 	time=86sec
+[i] save model

@@ -1,0 +1,38 @@
+[i] POLYP_RN_IN
+
+[i] mean values is [0.485, 0.456, 0.406]
+[i] std values is [0.229, 0.224, 0.225]
+[i] train_transform is Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+[i] #train data is 1000
+
+[i] log_iteration : 6
+[i] val_iteration : 32
+[i] max_iteration : 320
+[i] Architecture is resnet50
+[i] Total Params: 23.54M
+
+[i]	Epoch[0/10],	iteration=32, 	learning_rate=0.0009, 	loss=1.8140, 	positive_loss=0.0913, 	negative_loss=1.8368, 	time=31sec
+[i] save model
+[i]	Epoch[1/10],	iteration=32, 	learning_rate=0.0008, 	loss=1.7553, 	positive_loss=0.0943, 	negative_loss=1.8063, 	time=32sec
+[i] save model
+[i]	Epoch[2/10],	iteration=32, 	learning_rate=0.0007, 	loss=1.7318, 	positive_loss=0.0985, 	negative_loss=1.7790, 	time=32sec
+[i] save model
+[i]	Epoch[3/10],	iteration=32, 	learning_rate=0.0006, 	loss=1.7157, 	positive_loss=0.0842, 	negative_loss=1.8498, 	time=32sec
+[i] save model
+[i]	Epoch[4/10],	iteration=32, 	learning_rate=0.0005, 	loss=1.6956, 	positive_loss=0.0984, 	negative_loss=1.7444, 	time=32sec
+[i] save model
+[i]	Epoch[5/10],	iteration=32, 	learning_rate=0.0004, 	loss=1.6877, 	positive_loss=0.0906, 	negative_loss=1.7532, 	time=32sec
+[i] save model
+[i]	Epoch[6/10],	iteration=32, 	learning_rate=0.0003, 	loss=1.6762, 	positive_loss=0.0945, 	negative_loss=1.7447, 	time=33sec
+[i] save model
+[i]	Epoch[7/10],	iteration=32, 	learning_rate=0.0002, 	loss=1.6752, 	positive_loss=0.0884, 	negative_loss=1.8363, 	time=33sec
+[i] save model
+[i]	Epoch[8/10],	iteration=32, 	learning_rate=0.0001, 	loss=1.6657, 	positive_loss=0.0917, 	negative_loss=1.7775, 	time=33sec
+[i] save model
+[i]	Epoch[9/10],	iteration=32, 	learning_rate=0.0000, 	loss=1.6645, 	positive_loss=0.0975, 	negative_loss=1.7166, 	time=122sec
+[i] save model

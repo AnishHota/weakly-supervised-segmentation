@@ -1,0 +1,3 @@
+tensorboardx
+cmapy
+scikit-learn

@@ -162,3 +162,5 @@ cython_debug/
 
 # Training data
 Data/
+CUSTOM/experiments/images/
+CUSTOM/README.md

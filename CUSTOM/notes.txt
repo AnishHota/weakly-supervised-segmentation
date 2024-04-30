@@ -1,0 +1,17 @@
+changed directory path in train_CCAM.py
+2. Changed utils.py > visualize_heatmap > make_grid parameters from range to value_range
+
+
+Run script:
+python train_CCAM.py --tag CCAM_Maket1501_MOCO --batch_size 128 --pretrained mocov2 --alpha 0.25
+
+
+# For testing
+python train_CCAM.py --tag OXFORD_RN_IN --pretrained supervised --alpha 0.25 --max_epoch 1
+
+python train_CCAM.py --tag POLYP_RN_IN --pretrained supervised --alpha 0.25 --max_epoch 10
+
+python train_CCAM.py --tag OXFORD_RN_PRE --pretrained oxford --alpha 0.25 --max_epoch 10
+
+python train_CCAM.py --tag POLYP_RN_PRE --pretrained polyp --alpha 0.25 --max_epoch 10
+
