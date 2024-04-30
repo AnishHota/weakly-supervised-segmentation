@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: Weakly Supervised Segmentation using Activation maps
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Anish
+    family-names: Hota
+  - given-names: Mihir
+    family-names: Goyenka
+repository-code: >-
+  https://github.com/AnishHota/weakly-supervised-segmentation.git
